@@ -2,6 +2,6 @@ var store = { drivers: [] }
 class Driver{
     constructor(name){
       this.name = name
-      console.log(store)
+      this.id = store.push(this) - 1
     }
 }
