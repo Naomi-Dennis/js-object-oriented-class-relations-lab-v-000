@@ -1,5 +1,5 @@
 let store = { drivers: [] }
-class Drivers{
+class Driver{
     constructor(name){
       this.name = name
       this.id = store.push(this) - 1
