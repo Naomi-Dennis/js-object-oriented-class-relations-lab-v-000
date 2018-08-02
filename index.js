@@ -4,14 +4,15 @@ class Person{
     this.name = name
     this.id = store[this.constructor.name.toLowerCase() + "s"].push(this) - 1
   }
+  trips(){
+    return store.trips.filter( ( trip ) => { return trip.driver() === this  } )
+  }
 }
 class Driver extends Person{
     constructor(name){
       super(name)
     }
-    trips(){
-      return store.trips.filter( ( trip ) => { return trip.driver() === this  } )
-    }
+
 }
 
 class Passenger extends Person{
