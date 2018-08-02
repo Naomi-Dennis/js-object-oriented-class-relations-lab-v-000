@@ -23,7 +23,7 @@ class Passenger extends Person{
 
 }
 class Trip{
-  constructor(driver, passeneger){
+  constructor(driver, passenger){
     this.driver = driver
     this.passenger = passenger
     this.id = store[this.constructor.name.toLowerCase() + "s"].push(this) - 1
