@@ -11,7 +11,7 @@ class Driver extends Person{
     }
 }
 
-class Passeneger extends Person{
+class Passenger extends Person{
   constructor(name){
     super(name)
   }
