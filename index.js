@@ -10,7 +10,7 @@ class Driver extends Person{
       super(name)
     }
     trips(){
-      return store.trips.filter( ( trip ) => { trip.driver() === this  } )
+      return store.trips.filter( ( trip ) => { return trip.driver() === this  } )
     }
 }
 
