@@ -5,7 +5,7 @@ class Person{
     this.id = store[this.constructor.name.toLowerCase() + "s"].push(this) - 1
   }
 }
-class Driver{
+class Driver extends Person{
     constructor(name){
       this.name = name
       this.id = store.drivers.push(this) - 1
