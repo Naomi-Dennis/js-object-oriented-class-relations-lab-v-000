@@ -9,12 +9,16 @@ class Driver extends Person{
     constructor(name){
       super(name)
     }
+    trips(){
+      return store.trips.filter( ( trip ) => { trip.driver() === this  } )
+    }
 }
 
 class Passenger extends Person{
   constructor(name){
     super(name)
   }
+
 
 }
 class Trip{
@@ -29,6 +33,6 @@ class Trip{
     return this.driver
   }
   passenger(){
-    return this.passenger 
+    return this.passenger
   }
 }
