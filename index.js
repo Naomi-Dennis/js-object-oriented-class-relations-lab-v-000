@@ -21,7 +21,9 @@ class Passenger extends Person{
   constructor(name){
     super(name)
   }
-
+  drivers(){
+   return  this.trips().map( (trip) => { return trip.passenger() } )
+  }
 
 }
 class Trip{
