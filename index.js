@@ -1,5 +1,5 @@
 class Drivers{
-    constructor(){
-      
+    constructor(name){
+      this.name = name 
     }
 }
