@@ -31,9 +31,9 @@ class Trip{
     this.passengerObj = passenger
   }
   driver(){
-    return this.driver
+    return this.driverObj
   }
   passenger(){
-    return this.passenger
+    return this.passengerObj
   }
 }
