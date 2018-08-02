@@ -12,7 +12,8 @@ class Driver extends Person{
 }
 
 class Passeneger extends Person{
-  constuctor(name){
-      super(name)
+  constructor(name){
+    super(name)
   }
+
 }
