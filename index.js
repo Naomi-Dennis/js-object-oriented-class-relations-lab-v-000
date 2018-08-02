@@ -5,7 +5,7 @@ class Person{
     this.id = store[this.constructor.name.toLowerCase() + "s"].push(this) - 1
   }
   trips(){
-    return store.trips.filter( ( trip ) => { return trip.driver() === this  } )
+    return store.trips.filter( ( trip ) => { return trip[this.constructor.name.toLowerCase()]() === this  } )
   }
 }
 class Driver extends Person{
