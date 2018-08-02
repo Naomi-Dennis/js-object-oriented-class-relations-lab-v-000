@@ -1,4 +1,4 @@
-let store = { drivers: [] }
+var store = { drivers: [] }
 class Driver{
     constructor(name){
       this.name = name
