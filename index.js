@@ -7,11 +7,11 @@ class Person{
 }
 class Driver extends Person{
     constructor(name){
-    super(name)
+      super(name)
     }
 }
 
-class Passeneger{
+class Passeneger extends Person{
   constuctor(name){
       super(name)
   }
