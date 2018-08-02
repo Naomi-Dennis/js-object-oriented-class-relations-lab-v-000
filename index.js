@@ -13,7 +13,6 @@ class Driver extends Person{
 
 class Passeneger{
   constuctor(name){
-    this.name = name
-
+      super(name)
   }
 }
