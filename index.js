@@ -10,9 +10,3 @@ class Driver extends Person{
       super(name)
     }
 }
-
-class Passeneger extends Person{
-  constuctor(name){
-      super(name)
-  }
-}
