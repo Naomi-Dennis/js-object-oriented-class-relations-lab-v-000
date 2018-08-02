@@ -1,4 +1,4 @@
-let store = { drivers: [], passenger: [] }
+let store = { drivers: [], passengers: [] }
 class Person{
   constructor(name){
     this.name = name
