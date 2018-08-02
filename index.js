@@ -22,5 +22,7 @@ class Trip{
     this.driver = driver
     this.passenger = passenger
     this.id = store[this.constructor.name.toLowerCase() + "s"].push(this) - 1
+    this.driverId = this.driver.id
+    this.passengerId = this.passenger.id 
   }
 }
