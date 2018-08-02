@@ -17,3 +17,8 @@ class Passenger extends Person{
   }
 
 }
+class Trip extends Person{
+  constructor(name){
+    super(name)
+  }
+}
