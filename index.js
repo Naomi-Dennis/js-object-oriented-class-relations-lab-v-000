@@ -27,6 +27,8 @@ class Trip{
     this.id = store[this.constructor.name.toLowerCase() + "s"].push(this) - 1
     this.driverId = driver.id
     this.passengerId = passenger.id
+    this.driverObj = driver
+    this.passengerObj = passenger
   }
   driver(){
     return this.driver
